@@ -43,10 +43,9 @@ const ReturnPage = () => {
     };
 
     if (paymentId && PayerID) {
-      console.log("query", paymentId, PayerID);
       executePayment(paymentId as string, PayerID as string);
     }
-  }, [paymentId, PayerID]);
+  }, [paymentId, PayerID, router]);
 
   return (
     <div className=" min-h-screen  flex justify-center items-center">
