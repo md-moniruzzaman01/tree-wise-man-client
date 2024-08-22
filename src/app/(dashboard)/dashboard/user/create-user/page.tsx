@@ -3,7 +3,8 @@ import CreateUser from "@modules/Dashboard Content/Users pages/Create User/Creat
 const page = () => {
   return (
     <div>
-      <CreateUser />
+      {/* <CreateUser /> */}
+      <p>CreateUser</p>
     </div>
   );
 };

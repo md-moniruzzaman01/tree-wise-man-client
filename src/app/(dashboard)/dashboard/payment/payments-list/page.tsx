@@ -3,7 +3,8 @@ import PaymentsList from "@modules/Dashboard Content/Payments pages/Payments Lis
 const page = () => {
   return (
     <div>
-      <PaymentsList />
+      {/* <PaymentsList /> */}
+      <p>PaymentsList</p>
     </div>
   );
 };

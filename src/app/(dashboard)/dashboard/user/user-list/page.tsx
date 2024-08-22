@@ -3,7 +3,8 @@ import UserList from "@modules/Dashboard Content/Users pages/User List/UserList"
 const page = () => {
   return (
     <div>
-      <UserList />
+      {/* <UserList /> */}
+      <p>user list</p>
     </div>
   );
 };

@@ -3,7 +3,8 @@ import AdminPostList from "@modules/Dashboard Content/Posts pages/Admin Posts Li
 const page = () => {
   return (
     <div>
-      <AdminPostList />
+      {/* <AdminPostList /> */}
+      <p>AdminPostList</p>
     </div>
   );
 };

@@ -3,7 +3,8 @@ import MyProfile from "@modules/Dashboard Content/Profile pages/My Profile/MyPro
 const page = () => {
   return (
     <div>
-      <MyProfile />
+      {/* <MyProfile /> */}
+      <p>MyProfile</p>
     </div>
   );
 };

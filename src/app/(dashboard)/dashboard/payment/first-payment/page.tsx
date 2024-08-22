@@ -3,7 +3,8 @@ import FirstPayment from "@modules/Dashboard Content/Payments pages/first paymen
 const page = () => {
   return (
     <div>
-      <FirstPayment />
+      {/* <FirstPayment /> */}
+      <p>FirstPayment</p>
     </div>
   );
 };

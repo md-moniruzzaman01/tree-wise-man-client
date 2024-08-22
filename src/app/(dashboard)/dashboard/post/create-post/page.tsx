@@ -3,7 +3,8 @@ import CreatePost from "@modules/Dashboard Content/Posts pages/Create Post/Creat
 const page = () => {
   return (
     <div>
-      <CreatePost />
+      {/* <CreatePost /> */}
+      <p>CreatePost</p>
     </div>
   );
 };

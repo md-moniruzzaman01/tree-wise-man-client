@@ -4,6 +4,7 @@ const page = () => {
   return (
     <div>
       <PostsList />
+      <p>PostsList</p>
     </div>
   );
 };

@@ -4,6 +4,7 @@ const page = () => {
   return (
     <div>
       <CreateAdmin />
+      <p>CreateAdmin</p>
     </div>
   );
 };
