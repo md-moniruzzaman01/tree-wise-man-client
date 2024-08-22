@@ -4,7 +4,8 @@ export default function PaymentFailedPage() {
     return (
       <>
         <div>
-         <FailedPage/>
+         {/* <FailedPage/> */}
+         <p>FailedPage</p>
         </div>
       </>
     );

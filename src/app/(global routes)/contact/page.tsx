@@ -4,7 +4,8 @@ export default function ContactPage() {
   return (
     <>
       <div>
-        <ContactUs />
+        {/* <ContactUs /> */}
+        <p>ContactUs</p>
       </div>
     </>
   );

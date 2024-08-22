@@ -3,7 +3,8 @@ import ForgetPassword from "@modules/Others Content/Forget Password Page/ForgetP
 const page = () => {
   return (
     <div>
-      <ForgetPassword />
+      {/* <ForgetPassword /> */}
+      <p>ForgetPassword</p>
     </div>
   );
 };

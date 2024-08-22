@@ -4,7 +4,8 @@ export default function AboutPage() {
   return (
     <>
       <div>
-        <AboutUs />
+        {/* <AboutUs /> */}
+        <p>AboutUs</p>
       </div>
     </>
   );

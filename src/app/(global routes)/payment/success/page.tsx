@@ -4,7 +4,8 @@ export default function PaymentSuccessPage() {
     return (
       <>
         <div>
-         <SuccessPage/>
+         {/* <SuccessPage/> */}
+         <p>SuccessPage</p>
         </div>
       </>
     );
