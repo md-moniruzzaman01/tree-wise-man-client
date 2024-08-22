@@ -4,7 +4,8 @@ export default function returnPage() {
     return (
       <>
         <div>
-          <ReturnPage />
+          {/* <ReturnPage /> */}
+          <p>return page</p>
         </div>
       </>
     );
