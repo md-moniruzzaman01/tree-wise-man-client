@@ -5,12 +5,10 @@ import { useRouter } from "next/navigation";
 import { getUserInfo } from "../../../shared/auth/auth.service";
 import { authKey } from "@config/constants";
 import { getFromCookie } from "../../../shared/helpers/local_storage";
-import { useGetSingleUserQuery } from "../../../redux/features/api/users";
 
 const SearchBar = ({ placeholder = "Search...", showNotice = false }) => {
   const user: { id: string } | any = getUserInfo();
   const token = getFromCookie(authKey);
-  const { data } = useGetSingleUserQuery({ token, id: user?.id });
   const router: any = useRouter();
   const [activeRoute, setActiveRoute] = useState("");
 
@@ -48,14 +46,7 @@ const SearchBar = ({ placeholder = "Search...", showNotice = false }) => {
           Search
         </Button>
       </div>
-      {!data?.data?.subscription && showNotice && (
-        <div className="w-full md:w-1/2 lg:w-1/3 bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 rounded-md shadow-lg">
-          <p className="text-sm">
-            <strong>Notice:</strong> Please complete your payment to add your
-            company to our website and attract more clients.
-          </p>
-        </div>
-      )}
+      
     </div>
   );
 };
