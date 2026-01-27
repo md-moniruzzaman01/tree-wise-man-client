@@ -1,0 +1,22 @@
+.pagination {
+  text-align: center;
+}
+
+.pagination button {
+  margin-left: 10px;
+  padding: 0px 8px;
+  border-radius: 6px;
+  background-color: #e9e6e18f;
+}
+
+.pagination .selected {
+  background-color: #497ccd;
+  color: #fff;
+}
+
+select {
+  padding: 4px;
+  border-radius: 8px;
+  margin-left: 10px;
+  border: 1px solid black;
+}
